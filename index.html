@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>秋葉原遊記</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js' integrity='sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==' crossorigin='anonymous'></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="loadheader">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="" />
+                </a>
+            </div>
+            <div class="navbar">
+                <div class="nav">
+                    <div class="navarea">
+                        <a href="#page1">
+                            <div class="navtxt">
+                                動漫天地
+                            </div>
+                            <div class="navpic">
+                                <img src="images/navpic01.png" alt="" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav">
+                    <div class="navarea">
+                        <a href="#page2">
+                            <div class="navtxt">
+                                3C專區
+                            </div>
+                            <div class="navpic">
+                                <img src="images/navpic02.png" alt="" />
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="nav">
+                    <div class="navarea">
+                        <a href="#page3">
+                            <div class="navtxt">
+                                車站周邊
+                            </div>
+                            <div class="navpic">
+                                <img src="images/navpic03.png" alt="" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="wrapper">
+        <div class="banner">
+            <div class="bannerimg">
+                <img src="images/banner.jpg" alt="" />
+            </div>
+            <div class="mobilebanner">
+                <img src="images/banner_bg.jpg" alt="" />
+            </div>
+        </div>
+        <div class="container" style="margin-top: -1%;" id="page1">
+            <div class="left">
+                <img src="images/container01.jpg" alt="" />
+            </div>
+            <div class="right">
+                <div class="containertxt">
+                    <div class="title">
+                        <p>
+                            AKIHABARAゲーマーズ
+                        </p>
+                    </div>
+                    <div class="content">
+                        無線電會館斜對面是GAMERS秋葉原本店，販賣各種動漫精品、漫畫輕小說、音樂CD等，離車站出入口也近，若想買新品書籍之類的商品建議可以在此挑選，比較不用將笨重的書本提的老遠再回車站。
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="right">
+                <div class="containertxt">
+                    <div class="title">
+                        <p>
+                            アニメイト秋葉原本館
+                        </p>
+                    </div>
+                    <div class="content">
+                        販賣同人誌為主的虎之穴和有動漫百貨之稱的Animate（安利美特），想買同人誌就去虎之穴，想體驗逛百貨公司的感覺就去安利美特吧，可別因為兩家台灣都有分店，而錯失了參觀日本本店的機會喔！
+                    </div>
+                </div>
+            </div>
+            <div class="left">
+                <div class="swiper-container swiper01">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/swiper01.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/swiper02.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/swiper03.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/swiper04.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <script>
+                    var swiper = new Swiper(".swiper01", {
+                        initialSlide: 0,
+                        observer: true, //修改swiper自己或子元素时，自动初始化swiper
+                        observeParents: true, //修改swiper的父元素时，自动初始化swiper
+                        loop: true,
+                        autoplay: {
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        },
+                        navigation: {
+                            nextEl: ".swiper-button-next",
+                            prevEl: ".swiper-button-prev",
+                        },
+                    });
+                </script>
+            </div>
+        </div>
+        <div class="container">
+            <div class="left">
+                <img src="images/container02.jpg" alt="" />
+            </div>
+            <div class="right">
+                <div class="containertxt">
+                    <div class="title">
+                        <p>
+                            セガ秋葉原1号館
+                        </p>
+                    </div>
+                    <div class="content">
+                        紅色的SEGA大樓擺有許多夾娃娃機和大型遊樂機台。藍色的Sofmap Amusement館販賣動漫模型、遊戲片為主。廣瀨無線大樓地下一樓則有販賣同人誌為主的Melonbooks。
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="page2">
+            <div class="right">
+                <div class="containertxt">
+                    <div class="title">
+                        <p>
+                            LAOX秋葉原總店
+                        </p>
+                    </div>
+                    <div class="content">
+                        「LAOX秋葉原總店」是連鎖的電器制品綜合銷售店。除了家電、遊戲以及手錶等商品，還有像珠寶，對訪日遊客來說非常有人氣的伴手禮等。大約有7萬多種。對來日遊客提供的便利也廣為人知，店裡的咨詢前臺都有可對應多國語言的服務人員，可以幫忙輔助購物和周邊景點的介紹。辦理免稅的手續也是無可挑剔。不會給您添麻煩，即使是來日觀光客也可以愉快地購物。
+                    </div>
+                </div>
+            </div>
+            <div class="left">
+                <img src="images/container03.jpg" alt="" />
+            </div>
+        </div>
+        <div class="container">
+            <div class="left">
+                <div class="swiper-container swiper02">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/swiper05.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/swiper06.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/swiper07.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/swiper08.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+
+                <script>
+                    var swiper = new Swiper(".swiper02", {
+                        initialSlide: 0,
+                        observer: true, //修改swiper自己或子元素时，自动初始化swiper
+                        observeParents: true, //修改swiper的父元素时，自动初始化swiper
+                        loop: true,
+                        autoplay: {
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        },
+                        navigation: {
+                            nextEl: ".swiper-button-next",
+                            prevEl: ".swiper-button-prev",
+                        },
+                    });
+                </script>
+            </div>
+            <div class="right">
+                <div class="containertxt">
+                    <div class="title">
+                        <p>
+                            友都八喜秋葉原
+                        </p>
+                    </div>
+                    <div class="content">
+                        「友都八喜yodobashi秋葉原」是日本最大級別的家電量販店。從電鍋、美容儀器等這些對來日遊客來說非常有人氣的日本制商品，到時尚品牌、化妝品等各種各樣商品應有盡有。當然也有除了日語以外的可以對應英語、中文、韓語等服務人員。
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="right">
+                <div class="containertxt">
+                    <div class="title">
+                        <p>
+                            2k540 AKI-OKA ARTISAN
+                        </p>
+                    </div>
+                    <div class="content">
+                        店內就如「日本百貨店歡迎您」一樣，也有賣日式餐具以及雜貨等非常具有日本特色的伴手禮。是秋葉原到目前為止首個為新的人群而誕生的景點。
+                    </div>
+                </div>
+            </div>
+            <div class="left">
+                <img src="images/container04.jpg" alt="" />
+            </div>
+        </div>
+        <div class="container" id="page3">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.137551094643!2d139.7708019652593!3d35.69823258019035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ea7e2f93329%3A0x158f36257ff597b1!2z56eL6JGJ5Y6f!5e0!3m2!1szh-TW!2stw!4v1624949592079!5m2!1szh-TW!2stw"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="mapimg"></iframe>
+            </div>
+        </div>
+    </section>
+    <div class="mobilenavbar">
+        <div class="nav">
+            <div class="navarea">
+                <a href="#page1">
+                    <div class="navtxt">
+                        動漫天地
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="navarea">
+                <a href="#page2">
+                    <div class="navtxt">
+                        3C專區
+                    </div>
+                </a>
+            </div>
+
+        </div>
+        <div class="nav">
+            <div class="navarea">
+                <a href="#page3">
+                    <div class="navtxt">
+                        車站周邊
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy;copyright
+    </footer>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
